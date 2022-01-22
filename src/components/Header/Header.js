@@ -26,7 +26,7 @@ const Header = () => {
             <a href="/" className="header__logo">
                <Logo click={click} />
             </a>
-            <nav className="header__nav">
+            <nav className="header__nav" aria-label="primary">
                <button
                   className={`btn btn--menu ${click ? 'is-active' : ''}`}
                   aria-label="menu toggle"

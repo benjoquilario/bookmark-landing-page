@@ -9,7 +9,7 @@ const Cta = ({ heading, subHeading }) => {
       <section className="cta">
          <div className="cta__container container">
             <span className="cta__subheading">{subHeading}</span>
-            <h4 className="cta__heading">{heading}</h4>
+            <h3 className="cta__heading">{heading}</h3>
             <form className="cta__form" onSubmit={onHandleSubmit}>
                <label className="visually-hidden" htmlFor="email">
                   Enter email to subsrcibe
