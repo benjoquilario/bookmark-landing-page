@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Frontend Mentor - Bookmark landing page solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+-  [Overview](#overview)
+   -  [The challenge](#the-challenge)
+   -  [Screenshot](#screenshot)
+   -  [Links](#links)
+-  [My process](#my-process)
+   -  [Built with](#built-with)
+   -  [What I learned](#what-i-learned)
+   -  [Continued development](#continued-development)
+   -  [Useful resources](#useful-resources)
+-  [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  View the optimal layout for the site depending on their device's screen size
+-  See hover states for all interactive elements on the page
+-  Receive an error message when the newsletter form is submitted if:
+   -  The input field is empty
+   -  The email address is not formatted correctly
 
-### `npm test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./screenshot.png)
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  Solution URL: [Add solution URL here](https://your-solution-url.com)
+-  Live Site URL: [Add live site URL here](https://github.com/benjoquilario/fem-bookmark-landing-page)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+-  Semantic HTML5 markup
+-  BEM methodology
+-  React JS
+-  JSX
+-  SCSS for css preprocessor
+-  CSS 3
+-  Flexbox
+-  CSS Grid
+-  Mobile-first workflow
+-  [React](https://reactjs.org/) - JS library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+While building this project I learned more about React JS. I learned how to used sass using react JS by installing `sass` dependencies, and more importantly I learned how to used a reusable components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Continued development
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Need to continued learning more about useEffects and useRefs
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-  [React](https://reactjs.org/) - documentation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+-  Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/benjoquilario)
+-  Twitter - [@iam_benjo](https://www.twitter.com/iam_benjo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

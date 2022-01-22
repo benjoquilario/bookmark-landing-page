@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import {
+   heroData,
+   featuresInfo,
+   extensionData,
+   faqData,
+   subscribeData,
+} from './assets/data';
+import {
+   Header,
+   HeroSection,
+   Features,
+   Extension,
+   Faq,
+   Subscribe,
+   Footer,
+} from './components';
+
+const App = () => {
+   return (
+      <React.Fragment>
+         <a href="#features" className="skip-to-content">
+            Skip to content
+         </a>
+         <Header />
+         <main>
+            <HeroSection {...heroData} />
+            <Features {...featuresInfo} />
+            <Extension {...extensionData} />
+            <Faq {...faqData} />
+            <Subscribe {...subscribeData} />
+            <Footer />
+         </main>
+      </React.Fragment>
+   );
+};
 
 export default App;
