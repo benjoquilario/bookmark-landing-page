@@ -16,7 +16,7 @@ body {
    font-family: var(--fontFamily);
 
    @media screen and (max-width: 768px) {
-      &.noscroll {
+      &.no-scroll {
          overflow: hidden;
       }
    }
