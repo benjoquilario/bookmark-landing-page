@@ -15,7 +15,11 @@ const Header = () => {
 
    const backToDefault = () => setClick(false);
 
-   const toggleMobileMenu = () => setClick(!click);
+   const toggleMobileMenu = () => {
+      setClick(!click);
+      document.body.classList.toggle('no-scroll');
+   };
+
    return (
       <header className="header">
          <div className="header__container container">

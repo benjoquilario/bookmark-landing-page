@@ -78,13 +78,14 @@
 
       @media screen and (max-width: 400px) {
          padding: 0.875rem 0.675rem;
+         font-size: 14px;
       }
    }
 
    &--blue {
       background-color: var(--softBlue);
-      color: var(--white);
       border: 0.125rem solid var(--softBlue);
+      color: var(--white);
 
       &:hover {
          background-color: var(--white);
@@ -108,11 +109,6 @@
       margin-top: 2.5rem;
       padding: 0.875rem 1.5rem;
       border-radius: 0.4375rem;
-
-      &:hover {
-         background-color: var(--white);
-         color: var(--softBlue);
-      }
    }
 
    &--red {
